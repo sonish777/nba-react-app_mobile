@@ -1,0 +1,85 @@
+.teaminfo {
+  border: 1px solid #c5c5c5;
+  border-bottom: 0px;
+  background: #fff;
+  margin: 5px 5px 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teaminfo__thumbnail {
+  width: 57px;
+  height: 50px;
+  background-size: 65% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teaminfo__details {
+  flex-grow: 1;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.postdata {
+  border: 1px solid #c5c5c5;
+  border-bottom: 0px;
+  background-color: #fff;
+  margin: 0 5px 0 5px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.postdata span {
+  font-weight: 500;
+}
+
+.article__body {
+  background-color: #fff;
+  margin: 0 5px;
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+}
+
+.article__body h1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #4d4d4d;
+  margin: 15px 0;
+}
+
+.article__image {
+  background-size: cover !important;
+  width: 100%;
+  height: 200px;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+.article__text {
+  font-weight: 300;
+  color: #666666;
+  line-height: 23px;
+  margin: 15px 0;
+}
+
+.video {
+  background: #fff;
+  margin: 0 5px;
+  border: 1px solid #c5c5c5;
+}
+
+.video h1 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #4d4d4d;
+  margin: 15px 0;
+  padding: 0 10px;
+}
+
+.video iframe {
+  border: 0;
+}

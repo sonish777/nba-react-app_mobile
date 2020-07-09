@@ -1,0 +1,36 @@
+.signin {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.signin h2 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 35px;
+}
+
+.signin input {
+  font-size: 17px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.signin button {
+  padding: 10px 15px;
+  color: white;
+  font-size: 13px;
+  background-color: #03a9f4;
+  border: none;
+  border-radius: 30px;
+  margin: 3px;
+}
+
+.signin button:hover {
+  color: #03a9f4;
+  background-color: white;
+}

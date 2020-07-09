@@ -1,0 +1,28 @@
+.videoslistitem {
+  display: flex;
+  border-bottom: 2px solid #d5d5d5;
+  background-color: #fff;
+}
+
+.videoslistitem__img {
+  background-size: cover !important;
+}
+
+.videoslistitem__img div {
+  width: 90px;
+  height: 90px;
+  background-size: 40px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background: url("/images/play.png");
+}
+
+.videoslistitem__details {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.videoslistitem__details h2 {
+  font-size: 13px;
+  color: #525252;
+}
